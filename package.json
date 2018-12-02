@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "node-gyp configure build",
+    "start": "node --napi-modules index.js"
   },
   "keywords": [],
   "author": "Michelle Tilley <michelle@michelletilley.net>",
